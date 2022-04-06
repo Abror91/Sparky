@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     stages{
-        stage{
+        stage('Build'){
             steps{
                 bat 'dotnet build Sparky.sln'
             }
